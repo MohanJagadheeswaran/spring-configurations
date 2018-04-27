@@ -2,3 +2,9 @@ application:
   envname: balaji
 server:
   port: 7771
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - refresh
