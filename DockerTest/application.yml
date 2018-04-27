@@ -1,5 +1,5 @@
 application:
-  envname: balaji
+  envname: bhuvan
 server:
   port: 7771
 management:
