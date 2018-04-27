@@ -1,9 +1,4 @@
+application:
+  envname: jagadhees
 server:
-  port: 6661
-spring:
-  cloud:
-    config:
-      label: null
-      server:
-        git:
-          uri: https://github.com/MohanJagadheeswaran/spring-configurations.git
+  port: 7771
