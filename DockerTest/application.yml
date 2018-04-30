@@ -3,8 +3,21 @@ application:
 server:
   port: 7771
 management:
-  endpoint:
-    refresh:
-      enabled: true
+  endpoints:
+    web:
+     exposure:
+        include:
+        - refresh
+        - health
+        - env
+        - info
+        - metrics
+        - trace
+        - beans
+        - configprops
+        - httptrace
+        - loggers
+        - metrics
+        - shutdown
         
         
